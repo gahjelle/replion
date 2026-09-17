@@ -15,3 +15,7 @@ Uses the default labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready
 ### Domain docs
 
 Single-context: one `CONTEXT.md` plus `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
+### Workflow
+
+Work in a separate worktree on a separate branch, never on `main`, and open PRs targeting `main`. See `docs/agents/workflow.md`.
