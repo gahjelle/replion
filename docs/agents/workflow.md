@@ -10,6 +10,6 @@ How agents make changes in this repo.
 - **Push and open a PR targeting `main`.** Use `gh pr create --base main`. Reference the issue the work resolves.
 - **Clean up.** Remove your worktree once its branch is pushed.
 
-## Exceptions
+## Research findings
 
-- Throwaway `research/<topic>` branches from wayfinder research tickets are pushed but not opened as PRs; the ticket links to the findings on the branch.
+- Findings from wayfinder research tickets live in `docs/research/<topic>.md` and are merged to `main` through a PR like any other change, so they stay visible.
