@@ -63,7 +63,7 @@ Every Session from every Harness, newest first, that the presenter chooses from.
 _Avoid_: Library, browser, index
 
 **Session Entry**:
-One row in the Session List: a Session's Title, Harness, project folder and time, without its Events.
+One row in the Session List: a Session's Title, Harness, project folder and the time it started, without its Events.
 _Avoid_: Summary, listing, row
 
 **Star**:
