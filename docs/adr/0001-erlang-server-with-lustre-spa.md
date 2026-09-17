@@ -1,0 +1,3 @@
+# Erlang server with a Lustre SPA and a shared package
+
+Replion is split into three Gleam projects: `server/` (Erlang target) runs the Adapters, scans the disk and persists Stars; `client/` (JavaScript target) is a Lustre single-page app containing the Player; `shared/` holds the Session types and their JSON codecs, which both depend on. The alternative, Lustre server components, would put the Player on the server and send each animation tick over a websocket. We keep playback timing in the browser instead so it stays smooth, and the split also gives a clear boundary for learning Gleam on both targets.
